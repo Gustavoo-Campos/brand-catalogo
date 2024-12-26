@@ -1,0 +1,272 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sulphur+Point:wght@300;400;700&family=Teachers:ital,wght@0,400..800;1,400..800&family=Zen+Dots&display=swap');
+
+
+
+/* - - - - - - Bases - - - - - - - -*/
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #101010;
+   
+}
+
+
+main {
+    width: 375px;
+
+    background-color: #101010;
+    border-radius: 5px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h2 {
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    font-family: "Archivo", serif;
+}
+
+p {
+    font-size: 5px;
+    color: white;
+    font-family: "Archivo", serif;
+    font-weight: 100;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+/* - - - - - - Hearder - - - - - - - -*/
+
+header {
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.brand{
+    width: 20px;
+}
+
+
+
+
+/* - - - - - - section 1 - - - - - - - -*/
+
+
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.imgHero{
+    width: 350px;
+}
+
+
+aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 13px;
+    gap: 8px;
+}
+
+
+
+
+.option {
+    width: 111px;
+    height: 30px;
+    border: solid 2px #68AC54;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.textOption{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.bools {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    margin-top: 9px;
+}
+
+
+.pont {
+    width: 4px;
+    height: 4px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+
+.miniPont {
+    width: 2.5px;
+    height: 3px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+
+
+
+/* - - - - - - section 2 - - - - - - - -*/
+
+
+.frame {
+   
+    cursor: pointer;
+}
+
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.qa {
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+
+}
+
+input {
+    width: 273px;
+    height: 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: "Archivo", serif;
+}
+
+
+
+
+.lineqa {
+    width: 273px;
+    border: solid 1.5px #68AC54;
+
+}
+
+
+
+
+.produto {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    width: 341px;
+
+}
+
+
+.prodImg {
+    width: 171px;
+    height: 106px;
+    
+}
+
+.prodInfo {
+    width: 170px;
+    height: 106px;
+    background: transparent;
+    padding-top: 15px;
+    padding-left: 16px;
+
+}
+
+.hrSpace {
+    border: solid 1px #2C4824;
+}
+
+.pri {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+}
+
+.favorito{
+    z-index: 2;
+}
+
+.ter{
+    margin-top: 10px;
+}
+
+.imgStar{
+    width: 8.4px;
+}
+
+.qua {
+    transform: translate(10px, -10px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+}
+
+.preço {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    font-family: "Archivo", serif;
+    padding-bottom: 10px;
+}
