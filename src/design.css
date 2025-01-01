@@ -22,17 +22,37 @@ body {
 }
 
 
+.bodyTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A0E08;
+   
+}
+
+
 main {
     width: 375px;
-
     background-color: #101010;
     border-radius: 5px;
     overflow: hidden;
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+
+
+.mainTwo {
+    width: 375px;
+    background-color: #0A0E08;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 h2 {
@@ -80,6 +100,37 @@ header {
 }
 
 
+.headerTwo {
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+
+.avaliaçãoTwo{
+    z-index: 2;
+    
+   margin-bottom: 15px;
+}
+
+.headerInfo{
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+   z-index: 2;
+}
+
+.avaliaçãoTwo{
+    font-size: 6px;
+    transform: translate(0px, -9px);
+}
+
 .brand{
     width: 20px;
 }
@@ -95,6 +146,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.heroBuyImg{
+    width: 375px;
+    height: 320px;
+    transform: translate(0px, -60px);
+    z-index: 0;
 }
 
 
@@ -125,6 +183,18 @@ aside {
     justify-content: center;
 }
 
+
+.optionTwo {
+    width: 111px;
+    height: 30px;
+    border: solid 2px #ffffff;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .textOption{
     font-size: 12px;
     font-weight: 400;
@@ -136,6 +206,15 @@ aside {
     align-items: center;
     gap: 3px;
     margin-top: 9px;
+}
+
+.boolsTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    margin-top: 9px;
+    transform: translate(0px, -120px);
 }
 
 
@@ -156,6 +235,76 @@ aside {
 
 
 
+
+
+.infoBuy{
+
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    gap: 80px;
+    transform: translate(-10px, 250px);
+
+}
+
+
+.name{
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    font-family: "Archivo", serif;
+    margin-bottom: 6px;
+}
+
+.infoName{
+    color: white;
+    font-size: 8px;
+    font-weight: 300;
+    color: white;
+    font-family: "Archivo", serif;
+    margin-bottom: 6px;
+}
+
+.more{
+    color: white;
+    font-size: 8px;
+    font-weight: 600;
+    color: white;
+    font-family: "Archivo", serif;
+   
+}
+
+.pay{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    font-family: "Archivo", serif;
+}
+
+
+.buy{
+    width: 100px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #1BCC44;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   transform: translate(0px, -20px);
+   cursor: pointer;
+
+}
+
+.ButtomBuy{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    font-family: "Archivo", serif;
+}
 
 /* - - - - - - section 2 - - - - - - - -*/
 
@@ -217,11 +366,17 @@ input {
 }
 
 
-.prodImg {
+.prodBox {
     width: 171px;
     height: 106px;
+    overflow: hidden;
     
 }
+
+.imgProd{
+    width: 171px;
+}
+
 
 .prodInfo {
     width: 170px;
@@ -245,11 +400,22 @@ input {
 
 .favorito{
     z-index: 2;
+    position: absolute;
+    transform: translate(130px, 0px);
 }
 
 .ter{
     margin-top: 10px;
 }
+
+
+.terTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 
 .imgStar{
     width: 8.4px;
