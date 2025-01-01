@@ -401,6 +401,10 @@ input {
     gap: 18px;
 }
 
+.seg{
+    max-width: 106px;
+}
+
 .favorito{
     z-index: 2;
     position: absolute;
