@@ -63,7 +63,7 @@ h2 {
 }
 
 p {
-    font-size: 5px;
+    font-size: 0.3rem;
     color: white;
     font-family: "Archivo", serif;
     font-weight: 100;
@@ -99,6 +99,9 @@ header {
 
 }
 
+.back{
+    width: 25px;
+}
 
 .headerTwo {
     height: 51px;
