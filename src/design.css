@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #101010;
-   
+
 }
 
 
@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #0A0E08;
-   
+
 }
 
 
@@ -41,6 +41,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 
@@ -83,7 +84,7 @@ li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -101,8 +102,9 @@ header {
 
 }
 
-.back{
+.back {
     width: 25px;
+    cursor: pointer;
 }
 
 .headerTwo {
@@ -116,27 +118,27 @@ header {
 }
 
 
-.avaliaçãoTwo{
+.avaliaçãoTwo {
     z-index: 2;
-    
-   margin-bottom: 15px;
+
+    margin-bottom: 15px;
 }
 
-.headerInfo{
+.headerInfo {
     height: 51px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 120px;
-   z-index: 2;
+    z-index: 2;
 }
 
-.avaliaçãoTwo{
+.avaliaçãoTwo {
     font-size: 6px;
     transform: translate(0px, -9px);
 }
 
-.brand{
+.brand {
     width: 20px;
 }
 
@@ -153,7 +155,7 @@ header {
     align-items: center;
 }
 
-.heroBuyImg{
+.heroBuyImg {
     width: 375px;
     height: 320px;
     transform: translate(0px, -60px);
@@ -161,7 +163,7 @@ header {
 }
 
 
-.imgHero{
+.imgHero {
     width: 350px;
 }
 
@@ -200,7 +202,7 @@ aside {
     justify-content: center;
 }
 
-.textOption{
+.textOption {
     font-size: 12px;
     font-weight: 400;
 }
@@ -213,7 +215,7 @@ aside {
     margin-top: 9px;
 }
 
-.boolsTwo{
+.boolsTwo {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -242,7 +244,7 @@ aside {
 
 
 
-.infoBuy{
+.infoBuy {
 
     display: flex;
     flex-direction: row;
@@ -253,7 +255,7 @@ aside {
 }
 
 
-.name{
+.name {
     color: white;
     font-size: 17px;
     font-weight: 700;
@@ -262,7 +264,7 @@ aside {
     margin-bottom: 6px;
 }
 
-.infoName{
+.infoName {
     color: white;
     font-size: 8px;
     font-weight: 300;
@@ -271,16 +273,16 @@ aside {
     margin-bottom: 6px;
 }
 
-.more{
+.more {
     color: white;
     font-size: 8px;
     font-weight: 600;
     color: white;
     font-family: "Archivo", serif;
-   
+
 }
 
-.pay{
+.pay {
     color: white;
     font-size: 20px;
     font-weight: 400;
@@ -289,7 +291,7 @@ aside {
 }
 
 
-.buy{
+.buy {
     width: 100px;
     height: 34px;
     border-radius: 8px;
@@ -298,16 +300,116 @@ aside {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-   transform: translate(0px, -20px);
-   cursor: pointer;
+    transform: translate(0px, -20px);
+    cursor: pointer;
 
 }
 
-.ButtomBuy{
+.ButtomBuy {
     color: white;
     font-size: 15px;
     font-weight: 600;
+    font-family: "Archivo", serif;
+}
+
+.off {
+    position: absolute;
+    width: 35px;
+    height: 260px;
+    border-radius: 20px;
+    background-color: #1BCC44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4;
+
+    display: none;
+
+
+
+    transition: ease-in-out;
+
+}
+
+
+.on {
+
+    position: absolute;
+
+    width: 335px;
+    height: 560px;
+    border-radius: 20px;
+    background-color: #1BCC44;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 4;
+    transition: ease-in-out;
+    box-shadow: 0px 0px 70px 100px rgba(18, 18, 18, 0.667);
+
+}
+
+
+.headBuy {
+    display: flex;
+    flex-direction: row;
     color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Archivo", serif;
+    gap: 50px;
+    padding-right: 75px;
+    margin-top: 10px;
+}
+
+.h1Info {
+    padding-top: 10px;
+}
+
+
+.buyInfo {
+    width: 300px;
+    height: 20px;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+
+.pBuy {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: "Archivo", serif;
+    margin-left: 10px;
+}
+
+
+.inputBuy {
+    width: 275px;
+    height: 28px;
+    border-radius: 50px;
+    border: solid 2px white;
+    margin-top: 2px;
+
+}
+
+
+.endBuy {
+    width: 275px;
+    height: 65px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(0px, 450px);
+
+}
+
+
+
+.concluido {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
     font-family: "Archivo", serif;
 }
 
@@ -315,7 +417,7 @@ aside {
 
 
 .frame {
-   
+
     cursor: pointer;
 }
 
@@ -375,10 +477,10 @@ input {
     width: 171px;
     height: 106px;
     overflow: hidden;
-    
+
 }
 
-.imgProd{
+.imgProd {
     width: 171px;
 }
 
@@ -403,22 +505,22 @@ input {
     gap: 18px;
 }
 
-.seg{
+.seg {
     max-width: 106px;
 }
 
-.favorito{
+.favorito {
     z-index: 2;
     position: absolute;
     transform: translate(130px, 0px);
 }
 
-.ter{
+.ter {
     margin-top: 10px;
 }
 
 
-.terTwo{
+.terTwo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -426,7 +528,7 @@ input {
 }
 
 
-.imgStar{
+.imgStar {
     width: 8.4px;
 }
 
