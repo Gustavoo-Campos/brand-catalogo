@@ -332,6 +332,7 @@ aside {
 }
 
 
+
 .on {
 
     position: absolute;
@@ -339,13 +340,14 @@ aside {
     width: 335px;
     height: 560px;
     border-radius: 20px;
-    background-color: #1BCC44;
+    background-color: #0A0E08;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40px;
     z-index: 4;
     transition: ease-in-out;
-    box-shadow: 0px 0px 70px 100px rgba(18, 18, 18, 0.667);
+    box-shadow: 0px 0px 70px 70px #9a9a9a35;
 
 }
 
@@ -353,25 +355,30 @@ aside {
 .headBuy {
     display: flex;
     flex-direction: row;
-    color: white;
     font-size: 15px;
     font-weight: 600;
     font-family: "Archivo", serif;
     gap: 50px;
-    padding-right: 75px;
-    margin-top: 10px;
+    padding-right: 65px;
+    margin-top: 40px;
+   
 }
 
 .h1Info {
-    padding-top: 10px;
+    padding-top: 15px;
+    color: #80D176;
 }
 
 
 .buyInfo {
     width: 300px;
-    height: 20px;
-    margin-top: 40px;
+    height: 52px;
     padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
 }
 
 
@@ -380,6 +387,7 @@ aside {
     font-weight: 200;
     font-family: "Archivo", serif;
     margin-left: 10px;
+    color: #80D176;
 }
 
 
@@ -387,8 +395,13 @@ aside {
     width: 275px;
     height: 28px;
     border-radius: 50px;
-    border: solid 2px white;
+    border: solid 2px #80D176;
     margin-top: 2px;
+    font-size: 0.8rem;
+    color: white;
+    font-family: "Archivo", serif;
+    font-weight: 100;
+    padding-left: 10px;
 
 }
 
@@ -396,7 +409,7 @@ aside {
 .endBuy {
     width: 275px;
     height: 65px;
-    background-color: white;
+    background-color: #2ECA1A;
     border: none;
     border-radius: 15px;
     position: absolute;
@@ -407,10 +420,11 @@ aside {
 
 
 .concluido {
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 20px;
     font-weight: 600;
     font-family: "Archivo", serif;
+    cursor: pointer;
 }
 
 /* - - - - - - section 2 - - - - - - - -*/
